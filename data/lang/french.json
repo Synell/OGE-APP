@@ -1,0 +1,77 @@
+{
+    "info": {
+        "name": "Français",
+        "version": 1.0,
+        "description": "Langage français pour l'application OGE."
+    },
+    "data": {
+        "QMainWindow": {
+            "title": "Application OGE",
+            "overallAVG": "Moyenne Générale",
+            "loadDataOGE": "Application OGE - Chargement des données d'OGE...",
+            "QMenuBar": {
+                "file": "Fichier",
+                "import": "Importer...",
+                "export": "Exporter...",
+                "connectOGE": "Se Connecter à OGE...",
+                "settings": "Paramètres...",
+                "exit": "Quitter"
+            },
+            "QFileDialog": {
+                "import": "Application OGE > Importer",
+                "export": "Application OGE > Exporter"
+            },
+            "QComboBox": {
+                "semester": "Semestre"
+            }
+        },
+        "QLoginDialog": {
+            "title": "Application OGE > Se Connecter à OGE",
+            "usernamePlaceholder": "Utilisateur",
+            "passwordPlaceholder": "Mot de Passe",
+            "rememberText": "Se Souvenir de Moi",
+            "QMessageBox": {
+                "critical": {
+                    "cantConnect": {
+                        "title": "Application OGE > Se Connecter à OGE",
+                        "message": "Impossible d'obtenir des informations d'OGE.\nRéessayez et si le problème persiste, c'est qu'il peut être causé par OGE."
+                    },
+                    "cantLoadData": {
+                        "title": "Application OGE > Importer",
+                        "message": "Impossible de charger les données du fichier."
+                    },
+                    "cantSaveData": {
+                        "title": "Application OGE > Exporter",
+                        "message": "Impossible de saugarder les données."
+                    },
+                    "noData": {
+                        "title": "Application OGE > Exporter",
+                        "message": "Il n'y a pas de données à sauvegarder!"
+                    }
+                },
+                "information": {
+                    "settingsReload": {
+                        "title": "Application OGE > Paramètres",
+                        "message": "Un redémarrage du logiciel est nécessaire afin\nd'appliquer correctement tous les paramètres."
+                    }
+                }
+            }
+        },
+        "QSettingsDialog": {
+            "title": "Application OGE > Paramètres",
+            "langTab": {
+                "title": "Langage",
+                "QLabel": {
+                    "lang": "Choisir un Langage:"
+                }
+            },
+            "themesTab": {
+                "title": "Thème",
+                "QLabel": {
+                    "themes": "Choisir un Thème:",
+                    "themeVariants": "Choisir une Variante:"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "info": {
+        "name": "English",
+        "version": 1.0,
+        "description": "English language for OGE App."
+    },
+    "data": {
+        "QMainWindow": {
+            "title": "OGE App",
+            "overallAVG": "Overall Average",
+            "loadDataOGE": "OGE App - Loading OGE Data...",
+            "QMenuBar": {
+                "file": "File",
+                "import": "Import...",
+                "export": "Export...",
+                "connectOGE": "Connect to OGE...",
+                "settings": "Settings...",
+                "exit": "Exit"
+            },
+            "QFileDialog": {
+                "import": "OGE App > Import",
+                "export": "OGE App > Export"
+            },
+            "QComboBox": {
+                "semester": "Semester"
+            }
+        },
+        "QLoginDialog": {
+            "title": "OGE App > Connect To OGE",
+            "usernamePlaceholder": "Username",
+            "passwordPlaceholder": "Password",
+            "rememberText": "Remember Me",
+            "QMessageBox": {
+                "critical": {
+                    "cantConnect": {
+                        "title": "OGE App > Connect to OGE",
+                        "message": "Unable to get information from OGE.\nTry again and if the problem persists, it may be due to OGE."
+                    },
+                    "cantLoadData": {
+                        "title": "OGE App > Import",
+                        "message": "Unable to load data from this file."
+                    },
+                    "cantSaveData": {
+                        "title": "OGE App > Export",
+                        "message": "Unable to save data."
+                    },
+                    "noData": {
+                        "title": "OGE App > Export",
+                        "message": "There is no data to save!"
+                    }
+                },
+                "information": {
+                    "settingsReload": {
+                        "title": "OGE App > Settings",
+                        "message": "A restart of the software is necessary in order\nto correctly apply all the settings."
+                    }
+                }
+            }
+        },
+        "QSettingsDialog": {
+            "title": "OGE App > Settings",
+            "langTab": {
+                "title": "Language",
+                "QLabel": {
+                    "lang": "Choose a Language:"
+                }
+            },
+            "themesTab": {
+                "title": "Theme",
+                "QLabel": {
+                    "themes": "Choose a Theme:",
+                    "themeVariants": "Choose a Variant:"
+                }
+            }
+        }
+    }
+}

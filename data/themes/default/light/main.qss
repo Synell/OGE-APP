@@ -1,0 +1,49 @@
+
+QWidget#outline {
+	border: 10px solid #c1d5df;
+	background-color: #ff0000;
+}
+
+QLabel {
+	min-height: 30px;
+}
+
+QLabel#th {
+	border: 1px solid #c1d5df;
+	background-color: #e7edf1;
+	color: #3b5866;
+	font-weight: bold;
+}
+
+QLabel#tr1 {
+	border: 1px solid #c1d5df;
+	background-color: #ffffff;
+	color: #3b5866;
+}
+
+QLabel#tr1BadSchedule {
+	border: 1px solid #c1d5df;
+	background-color: #ffffff;
+	color: #ff0000;
+}
+
+QLabel#tr2 {
+	border: 1px solid #c1d5df;
+	background-color: #eef2f7;
+	color: #3b5866;
+}
+
+QLabel#tr2BadSchedule {
+	border: 1px solid #c1d5df;
+	background-color: #eef2f7;
+	color: #ff0000;
+}
+
+QLabel#goodShedule {
+	color: #00ff00;
+}
+
+QLabel#okShedule {
+	color: #ffff00;
+}
+
